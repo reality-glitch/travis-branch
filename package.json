@@ -1,0 +1,39 @@
+{
+  "name": "travis-branch",
+  "version": "0.0.1",
+  "description": "missing trais branch status pge",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reality-glitch/travis-branch.git"
+  },
+  "keywords": [
+    "travis-ci"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reality-glitch/travis-branch/issues"
+  },
+  "homepage": "https://github.com/reality-glitch/travis-branch#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-minify-html": "^1.0.5",
+    "gulp-rev": "^6.0.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-usemin": "^0.3.16",
+    "gulp-watch": "^4.3.5"
+  },
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "isomorphic-fetch": "^2.2.0",
+    "page": "^1.6.4",
+    "qwest": "^2.2.6",
+    "superagent": "^1.6.1",
+    "whatwg-fetch": "^0.10.1"
+  }
+}
