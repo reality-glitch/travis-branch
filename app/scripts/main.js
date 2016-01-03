@@ -15,6 +15,8 @@ function fallback () {
 }
 
 function getRequest (url) {
+  // 由于 travis 的 api 服务器 CORS 的设定中，不允许传 `Cache-Control`
+  // 这个 header 所以必须在这里手动去掉
   var headers = {
     'Cache-Control': ''
   };
